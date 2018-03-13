@@ -1,7 +1,7 @@
 CC=gcc
 CXX=g++
 NAME=mem
-CFLAGS=-Wall -ggdb
+CFLAGS=-Wall -ggdb -O2
 LDFLAGS=
 
 all : $(NAME)
